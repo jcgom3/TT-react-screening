@@ -70,3 +70,13 @@ Good luck! 🚀
 - [x] Added Bevahior on the Token Holdings and Assets Section
 - [x] Fetch library to display correct token symbol/country of origin - Dev flag indicates on Devnet environment, if token comes from Mainet/Real Data - Dev flag will not render
 - [x] Refresh Portfolio Data functionaliy
+
+## 📹 Demo Videos
+
+[![Part 1 - Working App](https://img.youtube.com/vi/9ZdcTwRa6gU/0.jpg)](https://youtu.be/9ZdcTwRa6gU)
+
+**Part 1:** [Working App Demo](https://youtu.be/9ZdcTwRa6gU)
+
+[![Part 2 - Mobile Responsiveness](https://img.youtube.com/vi/zt0EgX3q2Mc/0.jpg)](https://youtu.be/zt0EgX3q2Mc)
+
+**Part 2:** [Mobile Responsiveness Demo](https://youtu.be/zt0EgX3q2Mc)
