@@ -3,6 +3,7 @@
 @import '@wallet-ui/tailwind/index.css';
 
 @custom-variant dark (&:is(.dark *));
+@custom-variant purple (&:is(.purple *));
 
 @theme inline {
   --color-background: var(--background);
@@ -109,6 +110,40 @@
   --sidebar-accent-foreground: oklch(0.985 0 0);
   --sidebar-border: oklch(1 0 0 / 10%);
   --sidebar-ring: oklch(0.556 0 0);
+}
+
+.purple {
+  --background: oklch(0.99 0.04 295); /* Very light purple */
+  --foreground: oklch(0.17 0 0); /* Darker text */
+  --card: oklch(0.98 0.03 295);
+  --card-foreground: oklch(0.18 0 0);
+  --popover: oklch(0.98 0.03 295);
+  --popover-foreground: oklch(0.18 0 0);
+  --primary: oklch(0.6 0.24 280); /* Main purple */
+  --primary-foreground: oklch(0.99 0 0);
+  --secondary: oklch(0.92 0.12 315); /* Light violet */
+  --secondary-foreground: oklch(0.25 0 0);
+  --muted: oklch(0.94 0.07 300);
+  --muted-foreground: oklch(0.56 0 0);
+  --accent: oklch(0.87 0.16 294); /* Accent purple */
+  --accent-foreground: oklch(0.24 0 0);
+  --destructive: oklch(0.6 0.25 20);
+  --border: oklch(0.92 0.05 285);
+  --input: oklch(0.92 0.04 295);
+  --ring: oklch(0.7 0.19 285);
+  --chart-1: oklch(0.65 0.22 270);
+  --chart-2: oklch(0.6 0.18 310);
+  --chart-3: oklch(0.4 0.12 294);
+  --chart-4: oklch(0.8 0.15 295);
+  --chart-5: oklch(0.77 0.16 270);
+  --sidebar: oklch(0.98 0.03 294);
+  --sidebar-foreground: oklch(0.16 0 0);
+  --sidebar-primary: oklch(0.36 0.2 285);
+  --sidebar-primary-foreground: oklch(0.98 0 0);
+  --sidebar-accent: oklch(0.92 0.13 315);
+  --sidebar-accent-foreground: oklch(0.21 0 0);
+  --sidebar-border: oklch(0.92 0.05 285);
+  --sidebar-ring: oklch(0.7 0.19 285);
 }
 
 @layer base {

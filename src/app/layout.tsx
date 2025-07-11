@@ -5,7 +5,7 @@ import { AppLayout } from '@/components/app-layout'
 import React from 'react'
 
 export const metadata: Metadata = {
-  title: 'Portfolio Dashboard',
+  title: 'Third Time Portfolio Dashboard',
   description: 'Solana Portfolio Management',
 }
 
