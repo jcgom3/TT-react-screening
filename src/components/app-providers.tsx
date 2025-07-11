@@ -11,6 +11,7 @@ export function AppProviders({ children }: Readonly<{ children: React.ReactNode 
       <ThemeProvider
         attribute="class"
         enableSystem
+        defaultTheme="purple"
         disableTransitionOnChange
         value={{
           light: 'light',
