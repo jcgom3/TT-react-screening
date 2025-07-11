@@ -14,19 +14,19 @@ The portfolio dashboard has several issues that need to be resolved. Your job is
 
 ### Functionality (60 points)
 
-- [ ] Component renders without errors or performance issues
-- [ ] SOL balance displays correctly
-- [ ] All React patterns follow best practices
-- [ ] Proper error handling and loading states
-- [ ] TypeScript compilation succeeds
+- [x] Component renders without errors or performance issues
+- [x] SOL balance displays correctly
+- [x] All React patterns follow best practices
+- [x] Proper error handling and loading states
+- [x] TypeScript compilation succeeds
 
 ### Design & UX (40 points)
 
-- [ ] Add "Third Time" logo and branding from public folder
-- [ ] Change color scheme to purple/violet theme
-- [ ] Fully responsive on mobile devices
-- [ ] Professional, polished appearance
-- [ ] Proper spacing and typography
+- [x] Add "Third Time" logo and branding from public folder
+- [x] Change color scheme to purple/violet theme
+- [x] Fully responsive on mobile devices
+- [x] Professional, polished appearance
+- [x] Proper spacing and typography
 
 ## Evaluation Criteria
 
@@ -60,3 +60,13 @@ We evaluate:
 - Consider Solana-specific formatting requirements
 
 Good luck! 🚀
+
+## Submitted
+
+#### Everyting from Functionality, Design & UX plus:
+
+### Add-ons
+
+- [x] Added Bevahior on the Token Holdings and Assets Section
+- [x] Fetch library to display correct token symbol/country of origin - Dev flag indicates on Devnet environment, if token comes from Mainet/Real Data - Dev flag will not render
+- [x] Refresh Portfolio Data functionaliy

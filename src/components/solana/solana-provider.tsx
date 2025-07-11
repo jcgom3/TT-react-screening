@@ -1,6 +1,6 @@
 import dynamic from 'next/dynamic'
 import { ReactNode } from 'react'
-import { createSolanaDevnet, createWalletUiConfig, WalletUi } from '@wallet-ui/react'
+import { createSolanaDevnet, createSolanaLocalnet, createWalletUiConfig, WalletUi } from '@wallet-ui/react'
 
 export const WalletButton = dynamic(async () => (await import('@wallet-ui/react')).WalletUiDropdown, {
   ssr: false,
@@ -9,12 +9,8 @@ export const ClusterButton = dynamic(async () => (await import('@wallet-ui/react
   ssr: false,
 })
 
-// Removal of localnet cluster
-// const config = createWalletUiConfig({
-//   clusters: [createSolanaDevnet(), createSolanaLocalnet()],
-// })
 const config = createWalletUiConfig({
-  clusters: [createSolanaDevnet()],
+  clusters: [createSolanaDevnet(), createSolanaLocalnet()],
 })
 
 export function SolanaProvider({ children }: { children: ReactNode }) {
